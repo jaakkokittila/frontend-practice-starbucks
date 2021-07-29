@@ -3,18 +3,16 @@
   "scripts": {
     "ancient": "clojure -Sdeps '{:deps {com.github.liquidz/antq {:mvn/version \"RELEASE\"}}}' -m antq.core",
     "watch": "npx shadow-cljs watch app browser-test karma-test",
-    "release": "npx shadow-cljs release app",
-    "build-report": "npx shadow-cljs run shadow.cljs.build-report app target/build-report.html"
+    "release": "npx shadow-cljs release app"
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-transition-group": "^4.4.2"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "shadow-cljs": "2.15.2"
   },
-  "description": "A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to\r you.",
+  "description": "Recreating the Starbucks rewards page for practice",
   "version": "1.0.0",
   "author": "Jaakko Kittilä",
   "license": "ISC"

@@ -8,11 +8,11 @@
    (:star-tab db)))
 
 (re/reg-sub
- ::current-page
- (fn [db]
-   (:current-page db)))
-
-(re/reg-sub
  ::star-code
  (fn [db]
-   (:star-tab db)))
+   (:star-code db)))
+
+(re/reg-sub
+ ::valid-code
+ (fn [db]
+   (:valid-code db)))

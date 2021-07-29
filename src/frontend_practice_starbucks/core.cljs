@@ -3,13 +3,13 @@
    [reagent.dom :as rdom]
    [re-frame.core :as re-frame]
    [frontend-practice-starbucks.events :as events]
-   [frontend-practice-starbucks.views :as views]
-   [frontend-practice-starbucks.config :as config]
-   ))
+   [frontend-practice-starbucks.views :as views]))
 
+(def debug?
+  ^boolean goog.DEBUG)
 
 (defn dev-setup []
-  (when config/debug?
+  (when debug?
     (println "dev mode")))
 
 (defn ^:dev/after-load mount-root []
