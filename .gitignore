@@ -3,6 +3,7 @@
 /target/
 /*-init.clj
 /*.log
+/.lsp/
 
 # Leiningen
 /.lein-*
@@ -10,6 +11,5 @@
 
 # Node.js dependencies
 /node_modules/
-
 # shadow-cljs cache, port files
 /.shadow-cljs/
