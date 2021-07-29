@@ -2,7 +2,7 @@
   "name": "frontend-practice-starbucks",
   "scripts": {
     "ancient": "clojure -Sdeps '{:deps {com.github.liquidz/antq {:mvn/version \"RELEASE\"}}}' -m antq.core",
-    "watch": "npx shadow-cljs watch app browser-test karma-test",
+    "watch": "npx shadow-cljs watch app",
     "release": "npx shadow-cljs release app"
   },
   "dependencies": {
